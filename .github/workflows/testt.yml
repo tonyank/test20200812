@@ -14,3 +14,4 @@ jobs:
           middle_name: James
         run: |
           echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+          echo hahahaha,fuck you > abc.txt
