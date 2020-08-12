@@ -1,0 +1,16 @@
+name: This is a GitHub Actions test.
+
+on: push
+
+jobs:
+  first-job:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a message
+        env:
+          first_name: Harry
+          last_name: Potter
+          middle_name: James
+        run: |
+          echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
