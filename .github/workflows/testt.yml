@@ -15,3 +15,4 @@ jobs:
         run: |
           echo $first_name $middle_name $last_name
           echo hahahaha,fuck you > abc.txt
+          echo come on, baby, fuck me.
