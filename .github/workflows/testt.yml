@@ -13,5 +13,5 @@ jobs:
           last_name: Potter
           middle_name: James
         run: |
-          echo $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+          echo $first_name $middle_name $last_name
           echo hahahaha,fuck you > abc.txt
